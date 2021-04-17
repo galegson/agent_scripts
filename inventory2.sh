@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 CPU=`nproc`
 
 KERN=`uname -r | awk -F. '{print $1}'`
